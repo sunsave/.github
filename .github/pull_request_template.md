@@ -1,15 +1,25 @@
 ## What does this change?
 
-<!-- A PR should have enough detail to be understandable far in the future. e.g what is the problem/why is the change needed, how does it solve it and any questions or points of discussion.  -->
+<!-- 
+**NOTE**: This is meant as a guide and memory jog, not a prescriptive list of tasks you must do!
+Feel free to modify as suits, just please do read over and make sure you've at least thought about the points and if there's any impact.
+-->
 
-Eg. Resolves [ticket](http://link-to-ticket)
+<!-- 
+Add details of the change here. A PR should have enough detail to be understandable far in the future. e.g what is the problem/why is the change needed, how does it solve it and any questions or points of discussion.  
+
+Add any relevant tickets or links, eg: Resolves [ticket](http://link-to-ticket)
+-->
+
+
 
 ## Testing
 
-- [ ] Did you write new unit tests for this change?
-- [ ] Did you write new integration/e2e tests for this change?
+- [ ] I wrote new unit tests for this change
+- [ ] I wrote new integration/e2e tests for this change
+- [ ] I updated existing tests for this change
 
-Include the test commands you ran locally to test this change, eg:
+I ran the below test commands to test this change:
 
 ```
 npm run test
