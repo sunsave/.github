@@ -18,8 +18,7 @@ Add any relevant tickets or links, eg: Resolves [ticket](http://link-to-ticket)
 - [ ] I wrote new unit tests for this change
 - [ ] I wrote new integration/e2e tests for this change
 - [ ] I updated existing tests for this change
-
-I ran the below test commands to test this change:
+- [ ] I ran test commands to test this change (list below)
 
 ```
 npm run test
@@ -27,18 +26,25 @@ npm run test
 
 ## Monitoring
 
-- [ ] Can this change be deployed to prod without triggering any alarms?
-- [ ] Will this change be covered by our existing monitoring?
+- [ ] This change can be deployed to prod without triggering any alarms
+- [ ] This change will be covered by our existing monitoring
       (no new /metrics/dashboards/alarms are required)
-- [ ] Will this change have no (or positive) effect on resources and/or limits?
+- [ ] This change will have no (or positive) effect on resources and/or limits
       (including CPU, memory, AWS resources, calls to other services)
 
 ## Rollout
 
-- [ ] Can this change be merged immediately into the pipeline upon approval? (no upstream/downstream/config updates required first)
-- [ ] Are all dependent changes already deployed to prod?
-- [ ] Can this change be rolled back without any issues after deployment to prod?
+- [ ] This change can be merged immediately into the pipeline upon approval (no upstream/downstream/config updates required first)
+- [ ] All dependent changes are already deployed to prod
+- [ ] This change can be rolled back without any issues after deployment to prod
 
-## Images
+## UI
+<!-- Usually only applicable to UI changes: what did it look like before and what will it look like after? -->
 
-<!-- Usually only applicable to UI changes, what did it look like before and what will it look like after? -->
+### Design review
+
+- [ ] I requested review from @jacklsmith
+      
+### Images
+- [ ] I added images demonstrating the changes in desktop and mobile views
+
