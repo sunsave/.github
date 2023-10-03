@@ -43,7 +43,7 @@ npm run test
 
 ### Design review
 
-- [ ] I requested review from @jacklsmith
+- [ ] I requested review from jacklsmith
       
 ### Images
 - [ ] I added images demonstrating the changes in desktop and mobile views
