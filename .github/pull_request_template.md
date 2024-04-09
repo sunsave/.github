@@ -29,7 +29,7 @@ npm run test
       (no new /metrics/dashboards/alarms are required)
 - [ ] This change will have no (or positive) effect on resources and/or limits
       (including CPU, memory, AWS resources, calls to other services)
-- [ ] This change requires the cache to be flushed after deployment
+- [ ] This change does not require the cache to be flushed after deployment
   - Usually applicable for APIs when a DTO has been updated
 
 ## Rollout
